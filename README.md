@@ -1,4 +1,4 @@
-# AthenaHacks - Dog App
+# AthenaHacks - Cheer Up Cutie Py
 
 Feeling blue? Need something to cheer you up? 
 
