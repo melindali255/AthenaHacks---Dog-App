@@ -9,7 +9,7 @@ API from Dog CEO
 
 import tkinter
 from PIL import ImageTk,Image
-import Dog_Image
+import Dog_Image, Cat_Image, random
 
 _DEFAULT_FONT = ('Helvetica', 20)
 
@@ -33,8 +33,8 @@ class DogApp:
         self.button.pack_forget()
         if hasattr(self,"canvas"):
             self.canvas.pack_forget()
-            
-        img = Image.open(Dog_Image.returnImage())
+        
+        img = (Image.open(Dog_Image.returnImage()) if random.random() < 0.5 else Image.open(Cat_Image.returnImage()))
         tkimage = ImageTk.PhotoImage(img)
         if tkimage.height() > 500:
             self.handle_click()
