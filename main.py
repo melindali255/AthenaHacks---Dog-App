@@ -1,10 +1,11 @@
 '''
 Authors:
     Anna Salieva
+    Marlaina Leo
     Melinda Li
     Sabrina Thiem
     
-API from Dog CEO
+APIs from Dog CEO and TheCatAPI
 '''
 
 import tkinter

@@ -1,5 +1,3 @@
-import tkinter as tk
-from PIL import Image, ImageTk
 import io, urllib.request, json, requests
 
 def returnImage():
