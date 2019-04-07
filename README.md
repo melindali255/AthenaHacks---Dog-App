@@ -6,5 +6,6 @@ We have the solution for you! Use our app to cheer yourself up by getting an ado
 
 Created by:
 - Anna Salieva
+- Marlaina Leo
 - Melinda Li
 - [Sabrina Thiem](http://github.com/sthiem)
