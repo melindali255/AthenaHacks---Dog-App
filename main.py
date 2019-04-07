@@ -36,6 +36,9 @@ class DogApp:
             
         img = Image.open(Dog_Image.returnImage())
         tkimage = ImageTk.PhotoImage(img)
+        if tkimage.height() > 500:
+            self.handle_click()
+            return
         self.canvas = tkinter.Canvas(self._root_window, height = 500, width = 500, 
                                      highlightthickness = 0, bg = "#FF9E91" )
         self.canvas.pack()
